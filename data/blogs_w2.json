@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-06-10T02:43:23",
+ "collected_at": "2026-06-15T04:49:25",
  "source_status": {
   "Simon Willison": "ok:8",
   "Lilian Weng": "ok:0",
@@ -8,7 +8,7 @@
   "Chip Huyen": "ok:0",
   "Eugene Yan": "ok:1",
   "Jay Alammar": "ok:0",
-  "Berkeley BAIR": "ok:3",
+  "Berkeley BAIR": "ok:2",
   "The Gradient": "ok:0",
   "DeepLearning.AI Batch": "empty (bozo:1)",
   "OpenAI News": "ok:8",
@@ -19,59 +19,59 @@
  "items": [
   {
    "source": "Simon Willison",
-   "title": "If Claude Fable stops helping you, you'll never know",
-   "date": "2026-06-10",
-   "summary": "If Claude Fable stops helping you, you&#x27;ll never know Jonathon Ready highlights one of the more eyebrow-raising details from the 319 page system card for Fable 5 and Mythos 5. Here's a longer excerpt, highlights mine: In light of the ability of recent models to accelerate their own development , we’ve implemented new interventions that limit Claude’s effectiveness for requests targeting frontier LLM development (for example, on building pretraining pipelines, distributed training infrastructure, or ML accelerator design ). Using Claude to develop competing models already violates our Terms",
-   "link": "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything"
+   "title": "Quoting Julia Evans",
+   "date": "2026-06-15",
+   "summary": "[...] Instead, I picture a specific person and I just write for them. Often this person is \"me, but 3 years ago\" or a good friend. &mdash; Julia Evans , write for 1 person Tags: writing , julia-evans",
+   "link": "https://simonwillison.net/2026/Jun/15/julia-evans/#atom-everything"
   },
   {
    "source": "Simon Willison",
-   "title": "Initial impressions of Claude Fable 5",
-   "date": "2026-06-09",
-   "summary": "I didn't have early access to today's Claude Fable 5 release, but I've spent the past ~5.5 hours putting it through its paces. My initial impressions are that this is something of a beast . It's slow, expensive and has been quite happily churning through everything I've thrown at it so far. As is frequently the case with current frontier models the challenge is finding tasks that it can't do. First, let's review the key characteristics. Anthropic claim that Claude Fable 5 offers the same performance as Claude Mythos 5, except with much more strict guardrails in place to prevent it being used f",
-   "link": "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything"
+   "title": "Why AI hasn’t replaced software engineers, and won’t",
+   "date": "2026-06-14",
+   "summary": "Why AI hasn’t replaced software engineers, and won’t Arvind Narayanan and Sayash Kappor take on the question of AI job losses through the lens of a profession that is uniquely suited to AI disruption - software engineering. In this essay, we argue that there is enough evidence to reject the narrative that once AI capabilities reach a certain threshold, it will cause mass layoffs. Given that this is true even in a sector with very few regulatory barriers, most other professions are likely to be even more cushioned. The first good news is that the data still doesn't support the idea that AI is c",
+   "link": "https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/#atom-everything"
   },
   {
    "source": "Simon Willison",
-   "title": "llm 0.32a3",
-   "date": "2026-06-09",
-   "summary": "Release: llm 0.32a3 Almost entirely written by the new Claude Fable 5, see my write-up for more details . Tags: projects , ai , generative-ai , llms , llm , claude-mythos",
-   "link": "https://simonwillison.net/2026/Jun/9/llm/#atom-everything"
+   "title": "Publishing WASM wheels to PyPI for use with Pyodide",
+   "date": "2026-06-13",
+   "summary": "The Pyodide 314.0 release announcement (via Hacker News ) includes news I've been looking forward to for a long time: You can now publish Python packages built for Pyodide (or any Python runtime compatible with the PyEmscripten platform defined in PEP 783 ) directly to PyPI and install them at runtime. Previously, the Pyodide maintainers had to maintain, build, and host over 300 packages ourselves. This created a significant burden on our maintainers and became a major bottleneck for the community, as every new package required manual review. Moving forward, package maintainers can simply buil",
+   "link": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything"
   },
   {
    "source": "Simon Willison",
-   "title": "Setting a custom price for a model in AgentsView",
-   "date": "2026-06-09",
-   "summary": "TIL: Setting a custom price for a model in AgentsView I've been really enjoying AgentsView by Wes McKinney as a tool for exploring my token usage across different coding agents running on my laptop. Claude Fable 5 came out today and wasn't yet included in the pricing database AgentsView uses. I used Fable to reverse-engineer AgentsView and figured out this recipe for setting custom prices. Here's my Claude Fable 5 usage for today so far, plotted by AgentsView as a treemap across my different local projects: Tags: ai , generative-ai , llms , llm-pricing , claude-mythos",
-   "link": "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything"
+   "title": "luau-wasm 0.1a0",
+   "date": "2026-06-13",
+   "summary": "Release: luau-wasm 0.1a0 See Publishing WASM wheels to PyPI for use with Pyodide for details. Tags: lua , webassembly , pyodide",
+   "link": "https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything"
   },
   {
    "source": "Simon Willison",
-   "title": "Quoting Andrej Karpathy",
-   "date": "2026-06-09",
-   "summary": "I feel a lot of things changing as working software increasingly comes out on a tap. The Jevon's paradox kicks in and I feel my own demand for software growing substantially. You can ask for anything - explainers, visualizers, dashboards, bespoke single-use apps (e.g. a full wandb that is hyper-specific just for your project), you can 10X your test suite, auto-optimize code, run giant research projects with custom HTML for the results, anything! \"Free your mind\" (Matrix ref). &mdash; Andrej Karpathy , on Claude Fable 5 Tags: andrej-karpathy , jevons-paradox , anthropic , generative-ai , ai , l",
-   "link": "https://simonwillison.net/2026/Jun/9/andrej-karpathy/#atom-everything"
+   "title": "Mapping SQLite result columns back to their source `table.column`",
+   "date": "2026-06-13",
+   "summary": "Research: Mapping SQLite result columns back to their source `table.column` It would be neat if arbitrary SQL queries in Datasette could be rendered with additional information based on which columns from which tables were included in the results. To build that, we would need to be able to look at a SQL query like select users.name, orders.total from users join orders on orders.user_id = users.id and programmatically identify the table.column for each result - navigating not just joins but also more complex syntax like CTEs. I decided to set Claude Code (Opus 4.8, since Fable is currently bann",
+   "link": "https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything"
   },
   {
    "source": "Simon Willison",
-   "title": "Siri AI at WWDC 2026",
-   "date": "2026-06-08",
-   "summary": "Given how badly burned anyone who took Apple's 2024 WWDC Apple Intelligence announcements at face value was, I'm holding to a strict \"I'll believe it when I see it\" policy for everything they announced today . The new Siri AI features do at least look feasible with today's technology, especially since Apple are licensing a custom Gemini-derived model that they can run on their own Private Cloud Compute . It sounds like they'll be taking advantage of vision LLMs to extract information from the user's screen, which neatly sidesteps the need for every existing application to ship custom code in o",
-   "link": "https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything"
+   "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+   "date": "2026-06-13",
+   "summary": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5 Well this is nuts : The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance. Access to all other Anthropic models will not be affected. We received the directive from the government today",
+   "link": "https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything"
   },
   {
    "source": "Simon Willison",
-   "title": "datasette-agent-edit 0.1a0",
-   "date": "2026-06-07",
-   "summary": "Release: datasette-agent-edit 0.1a0 I'm planning several plugins for Datasette Agent which can make edits to existing pieces of text - things like collaborative Markdown editing, updating large SQL queries, and editing SVG files. Agentic editing of text is a little tricky to get right. My favorite published design for this is for the Claude text editor , which implements the following tools: view - view sections of a file, with line numbers added to every line. str_replace - find an exact old_str and replace it with new_str - fail if the original string is not unique insert - insert the specif",
-   "link": "https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything"
+   "title": "OpenAI WebRTC Audio Session, now with document context",
+   "date": "2026-06-12",
+   "summary": "OpenAI WebRTC Audio Session, now with document context I built the first version of this tool in December 2024 to try out the then-new OpenAI WebRTC API for interacting with their realtime audio models. Last month OpenAI introduced a brand new model to that API called GPT‑Realtime‑2 , which they promoted as \"our first voice model with GPT‑5‑class reasoning\" - with a Sep 30, 2024 knowledge cut-off. I've been waiting for that model to show up in the ChatGPT iPhone app but it still hasn't, so I revisited my old playground. You can now pick the better model, and you can also paste in a big chunk o",
+   "link": "https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything"
   },
   {
    "source": "Simon Willison",
-   "title": "micropython-wasm 0.1a2",
-   "date": "2026-06-06",
-   "summary": "Release: micropython-wasm 0.1a2 I added a CLI to micropython-wasm ( issue #7 ), inspired by the first draft of the blog entry when I realized it would be a great way to illustrate the Try it yourself section. Tags: python , sandboxing , webassembly , micropython",
-   "link": "https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything"
+   "title": "Quoting Andrew Singleton",
+   "date": "2026-06-12",
+   "summary": "Jenny owns a crematorium. John’s propane company gives her a $20 billion investment in return for 5 percent of her operation. Jenny throws $10 billion into the incinerator, then pays John $10 billion to buy propane to burn that money to ashes. John reports that his AI investments have generated $10 billion in revenue this quarter and that he owns 5 percent of a $100 billion business. A reporter from Forbes is assigned to profile John and Jenny, and over the course of his research, he becomes embroiled in a passionate but confusing three-way love affair with them, which eventually turns into a ",
+   "link": "https://simonwillison.net/2026/Jun/12/andrew-singleton/#atom-everything"
   },
   {
    "source": "Sebastian Raschka",
@@ -110,17 +110,17 @@
   },
   {
    "source": "HuggingFace Blog",
-   "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
-   "date": "2026-06-09",
+   "title": "olmo-eval: An evaluation workbench for the model development loop",
+   "date": "2026-06-12",
    "summary": "",
-   "link": "https://huggingface.co/blog/ServiceNow-AI/code-switching"
+   "link": "https://huggingface.co/blog/allenai/olmo-eval"
   },
   {
    "source": "HuggingFace Blog",
-   "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
-   "date": "2026-06-09",
+   "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+   "date": "2026-06-11",
    "summary": "",
-   "link": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code"
+   "link": "https://huggingface.co/blog/torch-mlp-fusion"
   },
   {
    "source": "HuggingFace Blog",
@@ -186,67 +186,81 @@
    "link": "http://bair.berkeley.edu/blog/2026/04/20/grasp/"
   },
   {
-   "source": "Berkeley BAIR",
-   "title": "Identifying Interactions at Scale for LLMs",
-   "date": "2026-03-13",
-   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI. To gain a comprehensive understanding, we can analyze these systems through different lenses: feature attribution , which isolates the specific input features driving a prediction ( Lundberg &amp; Lee, 2017 ; Ribeiro et al., 2022 ); data attribution , which link",
-   "link": "http://bair.berkeley.edu/blog/2026/03/13/spex/"
+   "source": "OpenAI News",
+   "title": "Introducing the OpenAI Partner Network",
+   "date": "2026-06-14",
+   "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+   "link": "https://openai.com/index/introducing-openai-partner-network"
   },
   {
    "source": "OpenAI News",
-   "title": "How engineers at Nextdoor use Codex to build without limits",
-   "date": "2026-06-09",
-   "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
-   "link": "https://openai.com/index/nextdoor"
+   "title": "New OpenAI Academy courses for the next era of work",
+   "date": "2026-06-12",
+   "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+   "link": "https://openai.com/index/academy-courses-applying-ai-at-work"
   },
   {
    "source": "OpenAI News",
-   "title": "What Codex unlocks for Notion",
-   "date": "2026-06-09",
-   "summary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
-   "link": "https://openai.com/index/notion"
+   "title": "How Preply combines AI and human tutors to personalize learning",
+   "date": "2026-06-12",
+   "summary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
+   "link": "https://openai.com/index/preply"
   },
   {
    "source": "OpenAI News",
-   "title": "Industrial policy for the Intelligence Age",
-   "date": "2026-06-09",
-   "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
-   "link": "https://openai.com/index/industrial-policy-for-the-intelligence-age"
+   "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+   "date": "2026-06-11",
+   "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+   "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem"
   },
   {
    "source": "OpenAI News",
-   "title": "Confidential submission of draft S-1 to the SEC",
-   "date": "2026-06-08",
-   "summary": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
-   "link": "https://openai.com/index/openai-submits-confidential-s-1"
+   "title": "BBVA puts AI at the core of banking with OpenAI",
+   "date": "2026-06-11",
+   "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+   "link": "https://openai.com/index/bbva"
   },
   {
    "source": "OpenAI News",
-   "title": "Built to benefit everyone: our plan",
-   "date": "2026-06-08",
-   "summary": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
-   "link": "https://openai.com/index/built-to-benefit-everyone-our-plan"
+   "title": "How an astrophysicist uses Codex to help simulate black holes",
+   "date": "2026-06-11",
+   "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+   "link": "https://openai.com/index/using-codex-to-simulate-black-holes"
   },
   {
    "source": "OpenAI News",
-   "title": "Introducing the OpenAI Economic Research Exchange",
-   "date": "2026-06-08",
-   "summary": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
-   "link": "https://openai.com/index/economic-research-exchange"
+   "title": "OpenAI to acquire Ona",
+   "date": "2026-06-11",
+   "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+   "link": "https://openai.com/index/openai-to-acquire-ona"
   },
   {
    "source": "OpenAI News",
-   "title": "How Endava is redesigning software delivery around AI agents",
-   "date": "2026-06-04",
-   "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-   "link": "https://openai.com/index/endava-frontiers"
+   "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+   "date": "2026-06-10",
+   "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+   "link": "https://openai.com/index/openai-on-oracle-cloud"
   },
   {
-   "source": "OpenAI News",
-   "title": "Dreaming: Better memory for a more helpful ChatGPT",
-   "date": "2026-06-04",
-   "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
-   "link": "https://openai.com/index/chatgpt-memory-dreaming"
+   "source": "Google Research",
+   "title": "Research into how AI can help users understand skin conditions",
+   "date": "2026-06-12",
+   "summary": "Health & Bioscience",
+   "link": "https://research.google/blog/research-into-how-ai-can-help-users-understand-skin-conditions/"
+  },
+  {
+   "source": "Google Research",
+   "title": "A low-carbon computing platform from your retired phones",
+   "date": "2026-06-12",
+   "summary": "Climate & Sustainability",
+   "link": "https://research.google/blog/a-low-carbon-computing-platform-from-your-retired-phones/"
+  },
+  {
+   "source": "Google Research",
+   "title": "New framework for auditing machine unlearning",
+   "date": "2026-06-10",
+   "summary": "Algorithms & Theory",
+   "link": "https://research.google/blog/new-framework-for-auditing-machine-unlearning/"
   },
   {
    "source": "Google Research",
@@ -282,27 +296,6 @@
    "date": "2026-05-27",
    "summary": "Security, Privacy and Abuse Prevention",
    "link": "https://research.google/blog/private-analytics-via-zero-trust-aggregation/"
-  },
-  {
-   "source": "Google Research",
-   "title": "Empirical Research Assistance (ERA): From Nature publication to catalyzing Computational Discovery",
-   "date": "2026-05-19",
-   "summary": "General Science",
-   "link": "https://research.google/blog/empirical-research-assistance-era-from-nature-publication-to-catalyzing-computational-discovery/"
-  },
-  {
-   "source": "Google Research",
-   "title": "Catalyzing scientific impact through global partnerships and open resources",
-   "date": "2026-05-01",
-   "summary": "Data Mining & Modeling",
-   "link": "https://research.google/blog/catalyzing-scientific-impact-through-global-partnerships-and-open-resources/"
-  },
-  {
-   "source": "Google Research",
-   "title": "Four ways Google Research scientists have been using Empirical Research Assistance",
-   "date": "2026-04-29",
-   "summary": "Data Mining & Modeling",
-   "link": "https://research.google/blog/four-ways-google-research-scientists-have-been-using-empirical-research-assistance/"
   }
  ]
 }
