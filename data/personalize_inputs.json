@@ -1,5 +1,5 @@
 {
- "as_of": "2026-07-13",
+ "as_of": "2026-07-20",
  "foresight": [
   {
    "theme": "AI Agents/编排",
@@ -60,23 +60,22 @@
   "source": "W1 (2026-05-19, 63 岗样本中 22 个有 yearly salary)"
  },
  "salary_this_week_snapshot": {
-  "median_k": 155,
-  "n": 7,
+  "median_k": 215,
+  "n": 9,
   "note": "本周样本量不稳，仅辅助参考；以 salary baseline 为准"
  },
  "top_employers": [
-  "Check Point Software Technologies",
-  "Fractal Analytics",
-  "Curve Dental",
-  "AmTrust Financial",
-  "LTM Limited"
+  "CLERA",
+  "Amazon Web Services",
+  "ServiceQUIK Inc.",
+  "FurtherAI",
+  "KoiReader Technologies, Inc."
  ],
  "target_roles": [
   "AI Engineer",
-  "Data Engineer",
   "Data Scientist",
   "ML Engineer",
   "Machine Learning Engineer"
  ],
- "ai_jobs_total": 46
+ "ai_jobs_total": 41
 }
