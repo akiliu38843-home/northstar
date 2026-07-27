@@ -1,137 +1,59 @@
 {
- "collected_at": "2026-07-20T03:30:14",
+ "collected_at": "2026-07-27T03:29:59",
  "arxiv": {
-  "status": "ok:12",
-  "papers": [
-   {
-    "title": "PagedWeight: Efficient MoE LLM Serving with Dynamic Quality-Aware Weight Quantization",
-    "date": "2026-07-17",
-    "authors": "Yuchen Yang, Yifan Zhao, Anisha Dasgupta",
-    "summary": "Mixture-of-Experts (MoE) is a popular class of large language models (LLMs), offering high efficiency and accuracy. However, in KV-cache-intensive serving scenarios, MoEs often exhibit a tension betwe",
-    "link": "https://arxiv.org/abs/2607.16184v1"
-   },
-   {
-    "title": "A Blueprint for Equilibrium-Based Differentiable Continuous-Variable Thermodynamic Computing",
-    "date": "2026-07-17",
-    "authors": "Owen Lockwood, Jérémy Béjanin, Joost Bus",
-    "summary": "To address the escalating energy and latency demands of machine-learning workloads, we introduce a blueprint for an energy-efficient and fast thermodynamic computing stack that leverages stochastic an",
-    "link": "https://arxiv.org/abs/2607.16183v1"
-   },
-   {
-    "title": "Cluster-Aware Matching via Laplacian Optimal Transport",
-    "date": "2026-07-17",
-    "authors": "Gabriel Samberg, YoonHaeng Hur, Yuehaw Khoo",
-    "summary": "In many applications of matching, the point clouds to be matched are not merely unstructured sets of points but rather samples from distributions with an intrinsic cluster structure. In such cases, as",
-    "link": "https://arxiv.org/abs/2607.16178v1"
-   },
-   {
-    "title": "Physics-enhanced reinforcement learning for real-time optimal control of dynamical systems",
-    "date": "2026-07-17",
-    "authors": "Matteo Tomasetto, Nicolò Botteghi, Gabriele Bruni",
-    "summary": "Reinforcement learning (RL) has recently emerged as a promising feedback control strategy for nonlinear and complex dynamical systems. However, RL algorithms are sample inefficient and require a large",
-    "link": "https://arxiv.org/abs/2607.16177v1"
-   },
-   {
-    "title": "Evaluating Open-Weight LLMs for Generating Structured Threat Information for Autonomous Vehicle Vulnerabilities",
-    "date": "2026-07-17",
-    "authors": "Md Erfan, Ahmed Ryan, Md Kamal Hossain Chowdhury",
-    "summary": "Connected and Autonomous Vehicles (CAVs) rely on interconnected software and hardware components, including sensors, Electronic Control Units, in-vehicle infotainment systems, and telematics units, wh",
-    "link": "https://arxiv.org/abs/2607.16175v1"
-   },
-   {
-    "title": "When Does Muon Help Agentic Reinforcement Learning?",
-    "date": "2026-07-17",
-    "authors": "Kai Ruan, Jinghao Lin, Zihe Huang",
-    "summary": "Muon is competitive with AdamW in large-scale pre-training, but its value for reinforcement-learning (RL) post-training remains unclear. We study vanilla Muon in sparse-reward agentic RL through match",
-    "link": "https://arxiv.org/abs/2607.16169v1"
-   },
-   {
-    "title": "Behaviour-Conditioned Neural Processes for Adaptive Residential Short-Term Load Forecasting",
-    "date": "2026-07-17",
-    "authors": "Ramin Soleimani, Andrea Visentin, Dirk Pesch",
-    "summary": "Residential short-term load forecasting (STLF) is challenging because household demand is heterogeneous, temporally variable, and shaped by diverse behavioural routines. This work investigates whether",
-    "link": "https://arxiv.org/abs/2607.16168v1"
-   },
-   {
-    "title": "An Exam for Active Observers",
-    "date": "2026-07-17",
-    "authors": "Jiarui Zhang, Muzi Tao, Shangshang Wang",
-    "summary": "Human vision is a closed loop: gaze is continuously redirected by intermediate hypotheses rather than a single snapshot. Decades of psychophysics and cognitive science have argued that this active obs",
-    "link": "https://arxiv.org/abs/2607.16165v1"
-   },
-   {
-    "title": "PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment",
-    "date": "2026-07-17",
-    "authors": "Tam Bang, Hussam Abubakr, Emiliano de la Garza Villarreal",
-    "summary": "Urban intersections are among the most hazardous locations in road networks, posing significant risks to vehicles and vulnerable road users (VRUs) such as pedestrians and cyclists. The complexity of m",
-    "link": "https://arxiv.org/abs/2607.16156v1"
-   },
-   {
-    "title": "Learning Standard Model structure from LHC data with Riemannian flow matching",
-    "date": "2026-07-17",
-    "authors": "Midori Kato, Kevin A. Urquía-Calderón, Inar Timiryasov",
-    "summary": "In this work we demonstrate that a single transformer-based generative model can capture Standard Model structure spanning five decades of invariant mass, from the sub-GeV regime to the TeV continuum,",
-    "link": "https://arxiv.org/abs/2607.16144v1"
-   },
-   {
-    "title": "Improving Improved Kernel PLS",
-    "date": "2026-07-17",
-    "authors": "Ole-Christian Galbo Engstrøm",
-    "summary": "Improved Kernel Partial Least Squares (IKPLS) algorithms 1 and 2 are among the fastest PLS calibration algorithms. This article focuses on two shared steps, the computation of the $\\mathbf{X}$ rotatio",
-    "link": "https://arxiv.org/abs/2607.16138v1"
-   },
-   {
-    "title": "When Do Multi-Agent Systems Help? An Information Bottleneck Perspective",
-    "date": "2026-07-17",
-    "authors": "Wendi Yu, Lianhao Zhou, Xiangjue Dong",
-    "summary": "LLM powered multi-agent systems (MAS) have emerged as a promising paradigm for complex tasks. However, their advantages over single-agent systems (SAS) remain unclear, with performance varying inconsi",
-    "link": "https://arxiv.org/abs/2607.16133v1"
-   }
-  ]
+  "status": "ok:0",
+  "papers": []
  },
  "pypi": {
-  "status": "ok:2/10",
+  "status": "ok:9/10",
   "libs": [
    {
-    "pkg": "transformers",
-    "last_month": 171455049,
-    "last_week": 42970425
-   },
-   {
-    "pkg": "anthropic",
-    "last_month": 161576036,
-    "last_week": 41682749
-   },
-   {
-    "pkg": "langchain",
-    "error": "HTTPError:HTTP Error 429: Too Many Requests"
+    "pkg": "litellm",
+    "last_month": 638867146,
+    "last_week": 141700522
    },
    {
     "pkg": "openai",
-    "error": "HTTPError:HTTP Error 429: Too Many Requests"
+    "last_month": 363515582,
+    "last_week": 87562141
    },
    {
-    "pkg": "vllm",
-    "error": "HTTPError:HTTP Error 429: Too Many Requests"
+    "pkg": "langchain",
+    "last_month": 309141923,
+    "last_week": 66846956
    },
    {
-    "pkg": "llama-index",
-    "error": "HTTPError:HTTP Error 429: Too Many Requests"
+    "pkg": "transformers",
+    "last_month": 172826451,
+    "last_week": 40529469
+   },
+   {
+    "pkg": "anthropic",
+    "last_month": 166212227,
+    "last_week": 42151584
    },
    {
     "pkg": "langgraph",
-    "error": "HTTPError:HTTP Error 429: Too Many Requests"
+    "last_month": 66523719,
+    "last_week": 16312348
    },
    {
     "pkg": "crewai",
-    "error": "HTTPError:HTTP Error 429: Too Many Requests"
+    "last_month": 10755068,
+    "last_week": 2808106
+   },
+   {
+    "pkg": "llama-index",
+    "last_month": 6941894,
+    "last_week": 1736743
+   },
+   {
+    "pkg": "vllm",
+    "last_month": 5423465,
+    "last_week": 1237104
    },
    {
     "pkg": "huggingface-hub",
-    "error": "HTTPError:HTTP Error 429: Too Many Requests"
-   },
-   {
-    "pkg": "litellm",
     "error": "HTTPError:HTTP Error 429: Too Many Requests"
    }
   ]
