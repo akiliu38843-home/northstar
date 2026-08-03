@@ -1,5 +1,5 @@
 {
- "as_of": "2026-07-27",
+ "as_of": "2026-08-03",
  "foresight": [
   {
    "theme": "AI Agents/编排",
@@ -60,16 +60,16 @@
   "source": "W1 (2026-05-19, 63 岗样本中 22 个有 yearly salary)"
  },
  "salary_this_week_snapshot": {
-  "median_k": 200,
-  "n": 5,
+  "median_k": 180,
+  "n": 4,
   "note": "本周样本量不稳，仅辅助参考；以 salary baseline 为准"
  },
  "top_employers": [
+  "ACV Auctions",
   "Google",
-  "Berlin Packaging",
-  "Texas Sports Academy Main",
-  "The Aerospace Corporation",
-  "Slingshot Aerospace"
+  "IREN",
+  "Mirage",
+  "HARAMAIN SYSTEMS INC."
  ],
  "target_roles": [
   "AI Engineer",
@@ -77,5 +77,5 @@
   "ML Engineer",
   "Machine Learning Engineer"
  ],
- "ai_jobs_total": 37
+ "ai_jobs_total": 39
 }
