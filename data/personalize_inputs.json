@@ -1,5 +1,5 @@
 {
- "as_of": "2026-08-03",
+ "as_of": "2026-08-10",
  "foresight": [
   {
    "theme": "AI Agents/编排",
@@ -60,22 +60,21 @@
   "source": "W1 (2026-05-19, 63 岗样本中 22 个有 yearly salary)"
  },
  "salary_this_week_snapshot": {
-  "median_k": 180,
-  "n": 4,
+  "median_k": 0,
+  "n": 0,
   "note": "本周样本量不稳，仅辅助参考；以 salary baseline 为准"
  },
  "top_employers": [
-  "ACV Auctions",
-  "Google",
-  "IREN",
-  "Mirage",
-  "HARAMAIN SYSTEMS INC."
+  "Suffolk Construction",
+  "Zions Bancorporation",
+  "Goal Solutions",
+  "C2 Labs, Inc.",
+  "ModMed"
  ],
  "target_roles": [
   "AI Engineer",
-  "Data Scientist",
-  "ML Engineer",
-  "Machine Learning Engineer"
+  "Data Engineer",
+  "ML Engineer"
  ],
- "ai_jobs_total": 39
+ "ai_jobs_total": 34
 }
