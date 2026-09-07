@@ -1,143 +1,140 @@
 {
- "collected_at": "2026-08-31T04:37:43",
+ "collected_at": "2026-09-07T03:43:36",
  "arxiv": {
   "status": "ok:12",
   "papers": [
    {
-    "title": "QGPINNs: A Physics-Informed Neural Network Framework for Nonlocal Differential Equations on Quantum Graphs",
-    "date": "2026-08-28",
-    "authors": "Vaibhav Mehandiratta, Saket Ramchandra",
-    "summary": "We propose QGPINNs, a physics-informed neural network framework developed in PyTorch for the numerical solution of nonlocal differential equations on quantum graphs. The framework is designed as a gen",
-    "link": "https://arxiv.org/abs/2608.28589v1"
+    "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
+    "date": "2026-09-04",
+    "authors": "Linzhan Mou, Jiahui Lei, Zhiyang Dou",
+    "summary": "Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive them remains a bottleneck. Existing learned animators are topology-constrained: ",
+    "link": "https://arxiv.org/abs/2609.05415v1"
    },
    {
-    "title": "Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning",
-    "date": "2026-08-28",
-    "authors": "Nan Wang, Mohit Yadav, Jonathan Wulff",
-    "summary": "Tendon-driven hands are anthropomorphic, and moving the actuators off the joints is what makes a hand of this capability affordable to build. Two effects produce that saving. Routing force through a c",
-    "link": "https://arxiv.org/abs/2608.28578v1"
+    "title": "WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data",
+    "date": "2026-09-04",
+    "authors": "Ji Soo Lee, Xilun Chen, Pierce Chuang",
+    "summary": "Recent advances in wearable sensing enable continuous monitoring of physiological and behavioral signals, yet existing benchmarks rarely evaluate whether AI systems can reason over a real user's longi",
+    "link": "https://arxiv.org/abs/2609.05405v1"
    },
    {
-    "title": "Learning a Size-Weight Frontier for Synthetic-Augmented Inference",
-    "date": "2026-08-28",
-    "authors": "Chengpiao Huang, Kaizheng Wang",
-    "summary": "Synthetic data can improve statistical inference when real data are scarce, but naively treating synthetic samples as real data can introduce bias and lead to unreliable inference. We develop a genera",
-    "link": "https://arxiv.org/abs/2608.28576v1"
+    "title": "Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction",
+    "date": "2026-09-04",
+    "authors": "Sihwa Park",
+    "summary": "Diffusion TV is an interactive AI art installation that offers a tangible and embodied experience of diffusion models through a modified CRT TV. By physically manipulating the TV's antenna, audiences ",
+    "link": "https://arxiv.org/abs/2609.05404v1"
    },
    {
-    "title": "On two proofs of $d^2$ mixing of weighted Dikin walks",
-    "date": "2026-08-28",
-    "authors": "Yuansi Chen, Yunbum Kook",
-    "summary": "We study the mixing time of weighted Dikin walks for sampling from exponential distributions on polytopes and truncated positive-semidefinite (PSD) cones. Our first result gives a general total-variat",
-    "link": "https://arxiv.org/abs/2608.28566v1"
+    "title": "RegionFed: Federated Learning for Personalized Query Understanding in Heterogeneous Retail Environments",
+    "date": "2026-09-04",
+    "authors": "Quoc H. Nguyen, Ali Lafzi, Abhijeet Phatak",
+    "summary": "Retail search systems serve diverse geographic regions with distinct query patterns, vocabularies, and product preferences, creating significant data heterogeneity that challenges both privacy-preserv",
+    "link": "https://arxiv.org/abs/2609.05403v1"
    },
    {
-    "title": "Learning between the peaks: sharp asymptotics for kernel ridge regression under power-law anisotropy",
-    "date": "2026-08-28",
-    "authors": "Lorenzo Rizzi, Arie Wortsman Zurich, Bruno Loureiro",
-    "summary": "We study kernel ridge regression under anisotropic Gaussian data, where the input covariance decays as a power law with exponent $α\\geq 0$ for polynomial inner-product kernels. We derive asymptoticall",
-    "link": "https://arxiv.org/abs/2608.28564v1"
+    "title": "Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models",
+    "date": "2026-09-04",
+    "authors": "Wonje Jeung, Sangyeon Yoon, Hyesoo Hong",
+    "summary": "Vision-language models are increasingly used as reward functions for robotic learning, but this role requires paraphrase invariance: the same trajectory should receive the same reward under semantical",
+    "link": "https://arxiv.org/abs/2609.05401v1"
    },
    {
-    "title": "A Formal Limitation on Learning Human Language From Textual Corpora",
-    "date": "2026-08-28",
-    "authors": "Emily Cheng, Ryan Cotterell",
-    "summary": "Can a listener recover what a speaker means from the form of an utterance alone? We answer this question information-theoretically, and for a listener given by any featurizer of text, including the hi",
-    "link": "https://arxiv.org/abs/2608.28560v1"
+    "title": "A Deep Generative Model for Synthesizing Labeled Wireless Signals",
+    "date": "2026-09-04",
+    "authors": "Yuxiao Li, Keke Hu, Santiago Mazuelas",
+    "summary": "Wireless signals with position-related labels are pivotal for both performance evaluation and model training in the realm of wireless sensing. However, acquiring real-world datasets is often challenge",
+    "link": "https://arxiv.org/abs/2609.05396v1"
    },
    {
-    "title": "Blog: Survey of Optimizers",
-    "date": "2026-08-28",
-    "authors": "Ruoran Xu",
-    "summary": "Neural-network optimization in 2025-2026 is no longer well described as a succession of new Adam variants. The design space has expanded from coordinates to matrices and layers, from fixed training ho",
-    "link": "https://arxiv.org/abs/2608.28557v1"
+    "title": "Multi-Step Tool-Calling over Korean Open Public APIs: A Benchmark and a Data-Synthesis Recipe",
+    "date": "2026-09-04",
+    "authors": "Dain Kim, Eungi Cho, Kyumin Kim",
+    "summary": "Data-sovereignty regulations increasingly require public institutions to deploy open-source, on-premise LLM agents that chain multiple tool-calls across live government APIs. However, open-source mode",
+    "link": "https://arxiv.org/abs/2609.05395v1"
    },
    {
-    "title": "Logos: An Agent Harness on a Cross-Process Bus",
-    "date": "2026-08-28",
-    "authors": "Hanzhang Jia, Liheng Zeng, Hao Cheng",
-    "summary": "Modern agent systems assemble capabilities at runtime, and this dynamic composition has recently received a complete formal treat ment in the spatiotemporal-composability calculus, in which a capabili",
-    "link": "https://arxiv.org/abs/2608.28553v1"
+    "title": "Necessary or Sufficient? Evaluating LLM Explanations With Behavioural Evidence",
+    "date": "2026-09-04",
+    "authors": "Urja Pawar, Rajitha Ramanayake, Nabeel Kemal",
+    "summary": "LLM decision components that can operate within agent workflows often produce action-relevant recommendations or judgements together with explanations. Operators may use the named factors to monitor a",
+    "link": "https://arxiv.org/abs/2609.05385v1"
    },
    {
-    "title": "Advancing Interaction-Sensitive Feature Selection: Novel Relief-Based Algorithms, Expanded Comparisons, and Recommendations for Biomedical Data Mining",
-    "date": "2026-08-28",
-    "authors": "Kia Kazemi-Nia, Harsh Bandhey, Philip J. Freda",
-    "summary": "As a precursor to high-dimensional biomedical data modeling, reliable feature selection can reduce computational expense, improve modeling performance, and yield simpler, more interpretable models. Ho",
-    "link": "https://arxiv.org/abs/2608.28552v1"
+    "title": "Reflection-aware Generative Novel View Synthesis",
+    "date": "2026-09-04",
+    "authors": "GeonU Kim, Shin Dong-Yeon, Tae-Hyun Oh",
+    "summary": "We propose Ref-GeNVS, a training-free, reflection-aware method for generative novel view synthesis (NVS) in mirror scenes. Existing multi-view diffusion models often fail to recognize the mirror in th",
+    "link": "https://arxiv.org/abs/2609.05382v1"
    },
    {
-    "title": "Video Generative Models as Geometry Learner",
-    "date": "2026-08-28",
-    "authors": "Haosen Yang, Jifei Song, Zhensong Zhang",
-    "summary": "Recent generative approaches to geometry estimation adapt pretrained image diffusion models and treat the task as image-conditioned generation. Leveraging off-the-shelf image diffusion models, they ei",
-    "link": "https://arxiv.org/abs/2608.28549v1"
+    "title": "Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models",
+    "date": "2026-09-04",
+    "authors": "Matthias Busch, Marius Tacke, Sviatlana V. Lamaka",
+    "summary": "Large language models (LLMs) are increasingly evaluated on molecular property benchmarks, but accuracy cannot distinguish a model that predicts a property from one that retrieves a published number. W",
+    "link": "https://arxiv.org/abs/2609.05381v1"
    },
    {
-    "title": "DARTS: Decoder-Aware Representation Tuning via Surgery for Model Merging",
-    "date": "2026-08-28",
-    "authors": "Aaryan Ajay Sharma, Sai Nishanth Padala, Seganrasan Subramanian",
-    "summary": "Model merging combines multiple task-specific fine-tuned LLMs into a single multi-task model without additional training. However, merged models are known to suffer from representation bias: systemati",
-    "link": "https://arxiv.org/abs/2608.28547v1"
+    "title": "What Matters, When? Diagnosing and Improving Conditional Visual Grounding in Visuomotor Imitation Policies",
+    "date": "2026-09-04",
+    "authors": "Vivek Chavan, Pengtao Xie, Yahuan Shi",
+    "summary": "Visuomotor imitation policies can achieve high performance under in-distribution visual conditions yet fail when visually similar objects or receptacles are introduced. We study this behavior as a pro",
+    "link": "https://arxiv.org/abs/2609.05376v1"
    },
    {
-    "title": "An Enclosed Mode Is a Gauge Choice: Topology Relative to Reach in Certified Code World Models",
-    "date": "2026-08-28",
-    "authors": "Javier Aguilar Martín",
-    "summary": "A code world model accepted by a sampling gate can be exactly right on everything the gate can see and arbitrarily wrong beyond it. We characterize what a certified model can know, and what its errors",
-    "link": "https://arxiv.org/abs/2608.28541v1"
+    "title": "CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents",
+    "date": "2026-09-04",
+    "authors": "Haoting Shi, Wenhao Wang, Weicheng Fang",
+    "summary": "Computer-use agents have advanced on benchmarks like OSWorld and AndroidWorld, but still act mostly through the GUI, often producing inefficient trajectories. Real-world computer work is hybrid, combi",
+    "link": "https://arxiv.org/abs/2609.05374v1"
    }
   ]
  },
  "pypi": {
-  "status": "ok:8/10",
+  "status": "ok:5/10",
   "libs": [
    {
     "pkg": "litellm",
-    "last_month": 641452443,
-    "last_week": 37111274
+    "last_month": 475712406,
+    "last_week": 19205331
    },
    {
-    "pkg": "huggingface-hub",
-    "last_month": 463999230,
-    "last_week": 57535034
-   },
-   {
-    "pkg": "anthropic",
-    "last_month": 192118153,
-    "last_week": 31973609
+    "pkg": "openai",
+    "last_month": 367460454,
+    "last_week": 63257948
    },
    {
     "pkg": "transformers",
-    "last_month": 176616940,
-    "last_week": 23299126
+    "last_month": 151407244,
+    "last_week": 21648536
    },
    {
     "pkg": "langgraph",
-    "last_month": 64251921,
-    "last_week": 10490190
+    "last_month": 58130375,
+    "last_week": 10130555
    },
    {
     "pkg": "crewai",
-    "last_month": 28429908,
-    "last_week": 1626946
-   },
-   {
-    "pkg": "llama-index",
-    "last_month": 6667795,
-    "last_week": 850543
-   },
-   {
-    "pkg": "vllm",
-    "last_month": 4295779,
-    "last_week": 569122
+    "last_month": 23564361,
+    "last_week": 566555
    },
    {
     "pkg": "langchain",
     "error": "HTTPError:HTTP Error 429: Too Many Requests"
    },
    {
-    "pkg": "openai",
+    "pkg": "anthropic",
+    "error": "HTTPError:HTTP Error 429: Too Many Requests"
+   },
+   {
+    "pkg": "vllm",
+    "error": "HTTPError:HTTP Error 429: Too Many Requests"
+   },
+   {
+    "pkg": "llama-index",
+    "error": "HTTPError:HTTP Error 429: Too Many Requests"
+   },
+   {
+    "pkg": "huggingface-hub",
     "error": "HTTPError:HTTP Error 429: Too Many Requests"
    }
   ]
